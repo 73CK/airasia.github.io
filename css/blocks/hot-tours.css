@@ -1,0 +1,148 @@
+.hot-tours{
+    margin-bottom: 142px;
+}
+
+.hot-tours__headline-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.hot-tours__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-tours__item{
+    width: calc(100% / 3 - 14px);
+}
+
+.hot-tour{
+    background: #fff;
+    border-radius: 6px;
+    vertical-align: top;
+    min-height: 438px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-tours__item:last-child{
+    margin-right: 0;
+}
+
+.hot-tour__pic{
+    height: 141px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #303030;
+}
+
+.hot-tour__river{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    object-fit: cover;
+}
+
+
+.hot-tour__pool{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    object-fit: cover;
+}
+
+.hot-tour__ocean{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    object-fit: cover;
+}
+
+.hot-tour__content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 23px 21px;
+}
+
+.hot-tour__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.hot-tour__visuals{
+    margin-left: 6px;
+    margin-top: -4px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.hot-tour__icon{
+    display: flex;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.hot-tour__icon:last-child{
+    margin-right: 0;
+}
+
+.hot-tour__text{
+    font-size: 16px;
+    margin-left: 6px;
+    margin-top: 3px;
+    color: #666666;
+}
+
+.hot-tour__description{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.hot-tour__btn-wrapper{
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+    margin-left: 3px;
+}
+
+.hot-tour__watch-btn{
+    font-size: 14px;
+    font-weight: bold;
+    color: #d21d16;
+    padding: 15px 28px 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 26px;
+    border: solid 1px rgba(210, 29, 22, 0.4);
+    background-color: #ffffff;
+    transition: background-color 0.5s linear;
+}
+
+.hot-tour__watch-btn:hover{
+    color: #fff;
+    background-color: #f5170e;
+}
+
+.hot-tour__btn-wrapper--active{
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+    margin-left: 3px;
+}
+
+.hot-tour__btn-wrapper--active .hot-tour__watch-btn{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 26px;
+    background: #f5170e;
+}
+

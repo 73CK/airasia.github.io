@@ -1,0 +1,17 @@
+.head-line__text-section{
+    display: inline-block;
+    width: 46%;
+    animation: linear 1s;
+}
+
+.head-line__title{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.head-line__desc{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 34px;
+}

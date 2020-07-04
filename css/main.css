@@ -1,0 +1,36 @@
+@import "layout/normalize.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+@import "layout/animations.css";
+    /* welcome */
+@import "blocks/welcome.css";
+@import "blocks/center.css";
+    /* main */
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/menu.css";
+@import "blocks/contacts.css";
+@import "blocks/head-line.css";
+@import "blocks/btn.css";
+@import "blocks/hot-tours.css";
+@import "blocks/news-stocks.css";
+@import "blocks/paginator.css";
+@import "blocks/about-us.css";
+@import "blocks/footer.css";
+@import "blocks/socials.css";
+    /* services */
+@import "blocks/page-title.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/services.css";
+@import "blocks/inner-section.css";
+@import "blocks/partners.css";
+@import "blocks/inner-footer.css";
+    /* reviews */
+@import "blocks/reviews.css";
+@import "blocks/separator.css";
+@import "blocks/forms.css";
+
+
+
+
+

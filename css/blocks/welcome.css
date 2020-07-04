@@ -1,0 +1,15 @@
+.welcome{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url("../../images/decor/shades.png") center center no-repeat, url("../../images/bg/screen.jpg") center bottom/cover no-repeat;
+}
+
+.welcome__container{
+    margin-top: 109px;
+}
